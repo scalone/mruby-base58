@@ -7,6 +7,7 @@
 */
 
 #include "bignum.h"
+#include <stdlib.h>
 #include <string.h>
 
 Bignum *bignum_alloc(mrb_state *mrb, const void *data, int length)
